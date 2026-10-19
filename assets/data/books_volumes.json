@@ -1,0 +1,695 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 16,
+  "apiEndpoint": "https://www.googleapis.com/books/v1/volumes",
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "gb_cs_01",
+      "etag": "v1_clean_arch_2017",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_cs_01",
+      "volumeInfo": {
+        "title": "Clean Architecture",
+        "subtitle": "A Craftsman's Guide to Software Structure and Design",
+        "authors": ["Robert C. Martin"],
+        "publisher": "Prentice Hall",
+        "publishedDate": "2017-09-12",
+        "description": "Buku rujukan utama dalam rekayasa perangkat lunak modern yang membedah prinsip pemisahan tanggung jawab (separation of concerns), aturan ketergantungan (dependency rule), serta bagaimana merancang arsitektur aplikasi yang tangguh, mudah diuji, dan bebas dari ketergantungan langsung pada framework maupun database.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780134494166" },
+          { "type": "ISBN_10", "identifier": "0134494164" }
+        ],
+        "pageCount": 432,
+        "categories": ["Computer Science"],
+        "averageRating": 4.8,
+        "ratingsCount": 1840,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780134494166-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134494166-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=CleanArchitecture"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": true,
+        "isEditorPick": true,
+        "currentPage": 248,
+        "coverHex": "#2A5C4D",
+        "accentHex": "#E8F0EC",
+        "authorBio": "Robert C. Martin (Uncle Bob) adalah konsultan perangkat lunak internasional, salah satu penandatangan Agile Manifesto, dan penulis buku klasik Clean Code.",
+        "keyTakeaways": [
+          "Aturan Ketergantungan (Dependency Rule) selalu mengarah ke dalam menuju bisnis inti.",
+          "UI, Database, dan Framework adalah detail implementasi, bukan pusat arsitektur.",
+          "Prinsip SOLID pada tingkat komponen (REP, CCP, CRP) mencegah kerapuhan sistem."
+        ],
+        "sampleExcerpt": "Bab 1 — Apa itu Desain dan Arsitektur?\n\nTidak ada perbedaan esensial antara desain tingkat rendah dan arsitektur tingkat tinggi. Keduanya merupakan bagian dari satu keutuhan yang bertujuan meminimalkan sumber daya manusia yang dibutuhkan untuk membangun dan memelihara sistem perangkat lunak. Ketika arsitektur dirancang dengan batas komponen yang tegas, perubahan pada antarmuka pengguna maupun skema penyimpanan data tidak akan merusak aturan bisnis inti aplikasi Anda."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_psy_01",
+      "etag": "v1_thinking_fast_slow",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_psy_01",
+      "volumeInfo": {
+        "title": "Thinking, Fast and Slow",
+        "subtitle": "Dua Sistem Kognitif yang Menggerakkan Keputusan Manusia",
+        "authors": ["Daniel Kahneman"],
+        "publisher": "Farrar, Straus and Giroux",
+        "publishedDate": "2011-10-25",
+        "description": "Pemenang Hadiah Nobel Ekonomi Daniel Kahneman membawa pembaca menelusuri cara kerja pikiran manusia melalui dua sistem berpikir: Sistem 1 yang cepat, intuitif, dan emosional; serta Sistem 2 yang lebih lambat, penuh pertimbangan, dan logis. Buku ini mengungkap bagaimana bias kognitif memengaruhi penilaian sehari-hari.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780374533557" },
+          { "type": "ISBN_10", "identifier": "0374533555" }
+        ],
+        "pageCount": 499,
+        "categories": ["Psychology"],
+        "averageRating": 4.9,
+        "ratingsCount": 3420,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780374533557-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=ThinkingFastAndSlow"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": true,
+        "isEditorPick": true,
+        "currentPage": 312,
+        "coverHex": "#D96B43",
+        "accentHex": "#F9EBE5",
+        "authorBio": "Daniel Kahneman adalah psikolog dan ekonom perilaku penerima Nobel Ekonomi tahun 2002 atas riset pionirnya mengenai teori prospek dan pengambilan keputusan.",
+        "keyTakeaways": [
+          "Sistem 1 bekerja otomatis dengan usaha minimal namun rentan terhadap bias heuristik.",
+          "Sistem 2 membutuhkan atensi aktif dan beban kognitif terukur untuk memverifikasi intuisi.",
+          "Efek Anchoring dan Loss Aversion membentuk cara manusia menilai risiko dan nilai."
+        ],
+        "sampleExcerpt": "Bagian I — Dua Sistem Dalam Pikiran\n\nSetiap kali Anda melihat wajah seseorang yang marah, Anda langsung mengenali emosi tersebut tanpa perlu bernalar langkah demi langkah. Itulah pengalaman Sistem 1: cepat, otomatis, dan tanpa usaha sadar. Sebaliknya, ketika Anda diminta menghitung 17 dikali 24 di luar kepala, pupil mata Anda melebar dan perhatian Anda terfokus penuh. Itulah Sistem 2 yang sedang bekerja menjaga ketelitian logika Anda."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_sg_01",
+      "etag": "v1_atomic_habits",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_sg_01",
+      "volumeInfo": {
+        "title": "Atomic Habits",
+        "subtitle": "Perubahan Kecil yang Memberikan Hasil Luar Biasa",
+        "authors": ["James Clear"],
+        "publisher": "Avery Publishing",
+        "publishedDate": "2018-10-16",
+        "description": "Metode praktis dan terbukti secara ilmiah untuk membangun kebiasaan baik dan menghentikan kebiasaan buruk. James Clear menunjukkan bahwa transformasi besar tidak menuntut revolusi drastis, melainkan akumulasi perbaikan mikro sebesar 1% setiap hari melalui desain sistem perilaku yang tepat.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780735211292" },
+          { "type": "ISBN_10", "identifier": "0735211299" }
+        ],
+        "pageCount": 320,
+        "categories": ["Self-Growth"],
+        "averageRating": 4.9,
+        "ratingsCount": 5120,
+        "language": "ID",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=AtomicHabits"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": true,
+        "isEditorPick": false,
+        "currentPage": 195,
+        "coverHex": "#1E3A5F",
+        "accentHex": "#E6EEF8",
+        "authorBio": "James Clear adalah penulis dan pembicara yang berfokus pada kebiasaan, pengambilan keputusan, dan peningkatan berkelanjutan (continuous improvement).",
+        "keyTakeaways": [
+          "Perbaikan 1% setiap hari menghasilkan pertumbuhan 37 kali lipat dalam satu tahun.",
+          "Fokuslah pada sistem dan identitas diri, bukan semata-mata pada target akhir.",
+          "Empat Hukum Perubahan Perilaku: Jadikan terlihat, menarik, mudah, dan memuaskan."
+        ],
+        "sampleExcerpt": "Bab 1 — Kekuatan Mengejutkan dari Kebiasaan Atomik\n\nSangat mudah bagi kita untuk melebih-lebihkan pentingnya satu momen penentu dan meremehkan nilai dari membuat perbaikan kecil setiap hari. Anda tidak naik ke tingkat tujuan Anda; Anda jatuh ke tingkat sistem yang Anda bangun. Kebiasaan adalah bunga majemuk dari perbaikan diri."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_cs_02",
+      "etag": "v1_pragmatic_prog",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_cs_02",
+      "volumeInfo": {
+        "title": "The Pragmatic Programmer",
+        "subtitle": "Your Journey To Mastery (20th Anniversary Edition)",
+        "authors": ["David Thomas", "Andrew Hunt"],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2019-09-13",
+        "description": "Edisi peringatan 20 tahun dari buku legendaris yang membentuk generasi software engineer modern. Mengupas filosofi DRY (Don't Repeat Yourself), Tracer Bullets, Orthogonality, hingga tanggung jawab etis dan ketangkasan belajar seorang pemrogram profesional.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780135957059" },
+          { "type": "ISBN_10", "identifier": "0135957052" }
+        ],
+        "pageCount": 352,
+        "categories": ["Computer Science"],
+        "averageRating": 4.9,
+        "ratingsCount": 2190,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780135957059-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=PragmaticProgrammer"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": true,
+        "isEditorPick": true,
+        "currentPage": 88,
+        "coverHex": "#3D348B",
+        "accentHex": "#ECEAF8",
+        "authorBio": "David Thomas dan Andrew Hunt adalah pelopor pengembangan perangkat lunak tangkas (Agile) dan pencetus istilah DRY serta Kata Pemrograman.",
+        "keyTakeaways": [
+          "Prinsip DRY adalah tentang tidak menduplikasi pengetahuan dan niat bisnis.",
+          "Rancang komponen yang ortogonal agar perubahan satu modul tidak merembet ke modul lain.",
+          "Rawat portofolio pengetahuan Anda sebagaimana investor merawat aset finansial."
+        ],
+        "sampleExcerpt": "Topik 1 — Ini Hidup Anda\n\nPemrogram pragmatis tidak sekadar menulis baris kode; mereka memecahkan masalah secara bertanggung jawab, terus mengasah keingintahuan teknis, dan selalu berpikir kritis terhadap setiap keputusan desain yang diambil."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_fic_01",
+      "etag": "v1_laut_bercerita",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_fic_01",
+      "volumeInfo": {
+        "title": "Laut Bercerita",
+        "subtitle": "Sebuah Novel Memoar Persahabatan dan Ingatan",
+        "authors": ["Leila S. Chudori"],
+        "publisher": "Kepustakaan Populer Gramedia",
+        "publishedDate": "2017-10-01",
+        "description": "Novel sastra Indonesia kontemporer pemenang S.E.A. Write Award yang mengisahkan persahabatan, idealisme intelektual mahasiswa, kecintaan pada buku-buku sastra dunia, serta ketabahan keluarga dalam merawat ingatan dan harapan yang tak pernah padam.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9786024246945" },
+          { "type": "ISBN_10", "identifier": "6024246943" }
+        ],
+        "pageCount": 379,
+        "categories": ["Fiction"],
+        "averageRating": 4.9,
+        "ratingsCount": 4650,
+        "language": "ID",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9786024246945-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9786024246945-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=LautBercerita"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": true,
+        "isEditorPick": true,
+        "currentPage": 379,
+        "coverHex": "#1B4965",
+        "accentHex": "#E3EFF6",
+        "authorBio": "Leila S. Chudori adalah sastrawan dan jurnalis senior Indonesia, penulis novel Pulang, Laut Bercerita, dan Namaku Alam.",
+        "keyTakeaways": [
+          "Narasi berlapis dengan gaya bahasa puitis yang menggugah empati pembaca.",
+          "Menggambarkan kuatnya tradisi diskusi literasi dan pemikiran kritis mahasiswa.",
+          "Menjadi salah satu karya sastra Indonesia paling berpengaruh dalam satu dekade terakhir."
+        ],
+        "sampleExcerpt": "Seyegan, Yogyakarta\n\nDi rumah kontrakan tua yang dikelilingi pohon pisang dan deretan rak buku kayu itulah kami berkumpul membaca, berdiskusi, dan menyusun mimpi tentang masa depan yang lebih terang melalui kata-kata."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_cs_03",
+      "etag": "v1_designing_data_intensive",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_cs_03",
+      "volumeInfo": {
+        "title": "Designing Data-Intensive Applications",
+        "subtitle": "The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+        "authors": ["Martin Kleppmann"],
+        "publisher": "O'Reilly Media",
+        "publishedDate": "2017-03-16",
+        "description": "Referensi komprehensif yang menjembatani teori sistem terdistribusi dengan rekayasa data praktis. Membahas secara mendalam model data relasional vs dokumen, indeks penyimpanan, replikasi, partisi, transaksi konsistensi, serta pemrosesan aliran data (stream processing).",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9781449373320" },
+          { "type": "ISBN_10", "identifier": "1449373321" }
+        ],
+        "pageCount": 616,
+        "categories": ["Computer Science"],
+        "averageRating": 4.9,
+        "ratingsCount": 2980,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9781449373320-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9781449373320-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=DDIA"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": false,
+        "isEditorPick": true,
+        "currentPage": 120,
+        "coverHex": "#8C2F39",
+        "accentHex": "#F9E8EA",
+        "authorBio": "Martin Kleppmann adalah peneliti dan dosen sistem terdistribusi di University of Cambridge serta kontributor proyek open-source berskala besar.",
+        "keyTakeaways": [
+          "Tiga pilar utama sistem perangkat lunak modern: Reliability, Scalability, dan Maintainability.",
+          "Pemilihan model data (SQL vs NoSQL vs Graph) menentukan struktur kode aplikasi di atasnya.",
+          "Memahami trade-off latensi, konsistensi, dan toleransi kesalahan jaringan."
+        ],
+        "sampleExcerpt": "Bab 1 — Sistem yang Andal, Skalabel, dan Mudah Dipelihara\n\nBanyak aplikasi modern bersifat data-intensive, bukan compute-intensive. Tantangan utamanya bukan lagi daya hitung prosesor, melainkan jumlah, kompleksitas, dan kecepatan perubahan data yang harus dikelola secara konsisten."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_psy_02",
+      "etag": "v1_make_it_stick",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_psy_02",
+      "volumeInfo": {
+        "title": "Make It Stick",
+        "subtitle": "The Science of Successful Learning",
+        "authors": ["Peter C. Brown", "Henry L. Roediger III", "Mark A. McDaniel"],
+        "publisher": "Harvard University Press",
+        "publishedDate": "2014-04-14",
+        "description": "Berangkat dari riset psikologi kognitif empiris, buku ini membongkar mitos belajar konvensional (seperti membaca berulang-ulang) dan memperkenalkan konsep Desirable Difficulties (kesulitan terukur), active retrieval practice, spaced repetition, dan interleaving untuk retensi kognitif jangka panjang.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780674729018" },
+          { "type": "ISBN_10", "identifier": "0674729013" }
+        ],
+        "pageCount": 336,
+        "categories": ["Psychology"],
+        "averageRating": 4.8,
+        "ratingsCount": 1620,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780674729018-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780674729018-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=MakeItStick"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": false,
+        "isEditorPick": true,
+        "currentPage": 210,
+        "coverHex": "#2A5C4D",
+        "accentHex": "#E8F0EC",
+        "authorBio": "Henry L. Roediger III dan Mark A. McDaniel adalah profesor psikologi kognitif terkemuka di Washington University in St. Louis yang meneliti memori manusia.",
+        "keyTakeaways": [
+          "Pembelajaran yang terasa terlalu mudah sering kali menghasilkan retensi yang dangkal dan cepat hilang.",
+          "Active retrieval (menguji ingatan sendiri) jauh lebih efektif daripada membaca ulang catatan.",
+          "Desirable difficulties memperkuat jejak memori jangka panjang dan kemampuan transfer konsep."
+        ],
+        "sampleExcerpt": "Bab 1 — Belajar adalah Keterampilan yang Diperoleh\n\nKetika proses belajar menuntut upaya kognitif yang lebih tinggi—seperti mencoba memecahkan masalah sebelum diberi solusi—otak membangun jalur sinaptik yang jauh lebih kokoh dan bertahan lama."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_sg_02",
+      "etag": "v1_deep_work",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_sg_02",
+      "volumeInfo": {
+        "title": "Deep Work",
+        "subtitle": "Rules for Focused Success in a Distracted World",
+        "authors": ["Cal Newport"],
+        "publisher": "Grand Central Publishing",
+        "publishedDate": "2016-01-05",
+        "description": "Profesor Ilmu Komputer Cal Newport merumuskan strategi bekerja dengan konsentrasi penuh tanpa gangguan (Deep Work) di tengah era distraksi digital. Kemampuan fokus mendalam ini memungkinkan penguasaan materi sulit secara cepat dan penciptaan karya berkualitas tinggi.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9781455586691" },
+          { "type": "ISBN_10", "identifier": "1455586692" }
+        ],
+        "pageCount": 304,
+        "categories": ["Self-Growth"],
+        "averageRating": 4.7,
+        "ratingsCount": 2740,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9781455586691-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=DeepWork"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": true,
+        "isEditorPick": false,
+        "currentPage": 140,
+        "coverHex": "#B5651D",
+        "accentHex": "#FAF0E6",
+        "authorBio": "Cal Newport adalah Profesor Ilmu Komputer di Georgetown University yang menulis tentang irisan antara teknologi digital, kognisi, dan budaya kerja.",
+        "keyTakeaways": [
+          "Deep Work adalah aktivitas profesional dalam kondisi konsentrasi bebas distraksi yang mendorong kapasitas kognitif ke batas optimal.",
+          "Shallow Work (pekerjaan dangkal) mudah direplikasi dan tidak menciptakan nilai pembeda.",
+          "Bangun ritual jadwal blok waktu terstruktur untuk melindungi fokus harian Anda."
+        ],
+        "sampleExcerpt": "Hipotesis Deep Work\n\nKemampuan untuk melakukan kerja mendalam semakin langka tepat pada saat nilainya semakin tinggi di dalam ekonomi pengetahuan kita. Mereka yang menguasainya akan berkembang pesat."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_cs_04",
+      "etag": "v1_design_everyday_things",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_cs_04",
+      "volumeInfo": {
+        "title": "The Design of Everyday Things",
+        "subtitle": "Revised and Expanded Edition on Human-Centered Design",
+        "authors": ["Don Norman"],
+        "publisher": "Basic Books",
+        "publishedDate": "2013-11-05",
+        "description": "Karya klasik fondasi interaksi manusia dan komputer (HCI) serta desain UI/UX. Don Norman menjelaskan konsep Affordances, Signifiers, Mapping, Feedback, dan Conceptual Models yang membuat sebuah produk atau aplikasi mobile terasa intuitif digunakan tanpa buku panduan.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780465050659" },
+          { "type": "ISBN_10", "identifier": "0465050654" }
+        ],
+        "pageCount": 368,
+        "categories": ["Computer Science"],
+        "averageRating": 4.8,
+        "ratingsCount": 2110,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=DesignOfEverydayThings"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": false,
+        "isEditorPick": true,
+        "currentPage": 96,
+        "coverHex": "#D96B43",
+        "accentHex": "#F9EBE5",
+        "authorBio": "Don Norman adalah direktur The Design Lab di UC San Diego, mantan VP Advanced Technology di Apple, dan pencetus istilah User Experience (UX).",
+        "keyTakeaways": [
+          "Desain yang baik mengutamakan keterlihatan (discoverability) dan kejelasan umpan balik (feedback).",
+          "Kesalahan pengguna hampir selalu disebabkan oleh desain sistem yang mengabaikan psikologi manusia.",
+          "Signifiers memberi petunjuk visual di mana dan bagaimana interaksi harus dilakukan."
+        ],
+        "sampleExcerpt": "Bab 1 — Psikopatologi Benda Sehari-hari\n\nDua karakteristik terpenting dari desain yang baik adalah keterlihatan (discoverability) dan pemahaman (understanding). Bisakah pengguna langsung mengetahui tindakan apa yang mungkin dilakukan dan bagaimana melakukannya?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_psy_03",
+      "etag": "v1_flow_csikszentmihalyi",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_psy_03",
+      "volumeInfo": {
+        "title": "Flow: The Psychology of Optimal Experience",
+        "subtitle": "Mencapai Kondisi Fokus dan Kebahagiaan Puncak",
+        "authors": ["Mihaly Csikszentmihalyi"],
+        "publisher": "Harper Perennial Modern Classics",
+        "publishedDate": "2008-07-01",
+        "description": "Melalui penelitian puluhan tahun, psikolog Mihaly Csikszentmihalyi mengungkap bahwa pengalaman paling membahagiakan dan produktif terjadi saat seseorang berada dalam kondisi 'Flow'—keadaan larut sepenuhnya dalam suatu aktivitas yang menantang namun seimbang dengan tingkat keterampilannya.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780061339202" },
+          { "type": "ISBN_10", "identifier": "0061339202" }
+        ],
+        "pageCount": 336,
+        "categories": ["Psychology"],
+        "averageRating": 4.7,
+        "ratingsCount": 1950,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780061339202-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780061339202-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=FlowPsychology"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": false,
+        "isEditorPick": false,
+        "currentPage": 45,
+        "coverHex": "#2B4C7E",
+        "accentHex": "#E8EEF7",
+        "authorBio": "Mihaly Csikszentmihalyi adalah profesor psikologi terkemuka yang dikenal secara global sebagai pencetus konsep psikologis Flow.",
+        "keyTakeaways": [
+          "Flow muncul pada titik keseimbangan antara tingkat tantangan tugas dan tingkat keahlian individu.",
+          "Tujuan yang jelas dan umpan balik langsung adalah syarat mutlak terciptanya fokus optimal.",
+          "Menata kesadaran diri membantu mengubah rutinitas belajar menjadi pengalaman bermakna."
+        ],
+        "sampleExcerpt": "Bab 4 — Kondisi-Kondisi Flow\n\nMomen terbaik dalam hidup kita bukanlah waktu pasif dan reseptif, melainkan ketika tubuh atau pikiran kita diregangkan hingga batas kemampuannya dalam upaya sukarela untuk menyelesaikan sesuatu yang sulit dan berharga."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_fic_02",
+      "etag": "v1_bumi_manusia",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_fic_02",
+      "volumeInfo": {
+        "title": "Bumi Manusia",
+        "subtitle": "Roman Pertama Tetralogi Buru",
+        "authors": ["Pramoedya Ananta Toer"],
+        "publisher": "Lentera Dipantara",
+        "publishedDate": "2005-08-01",
+        "description": "Mahakarya sastra klasik Indonesia yang mengikuti perjalanan Minke, seorang pemuda pribumi terpelajar di akhir abad ke-19 yang bergulat dengan ilmu pengetahuan modern, keadilan sosial, dan kekuatan tulisan di tengah pergolakan zaman kolonial.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9789799731234" },
+          { "type": "ISBN_10", "identifier": "9799731232" }
+        ],
+        "pageCount": 535,
+        "categories": ["Fiction"],
+        "averageRating": 4.9,
+        "ratingsCount": 6240,
+        "language": "ID",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9789799731234-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9789799731234-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=BumiManusia"
+      },
+      "readingState": {
+        "isBookmarked": true,
+        "isTrending": false,
+        "isEditorPick": true,
+        "currentPage": 410,
+        "coverHex": "#6B4226",
+        "accentHex": "#F4EBE6",
+        "authorBio": "Pramoedya Ananta Toer adalah salah satu sastrawan terbesar Indonesia yang karyanya telah diterjemahkan ke lebih dari 40 bahasa dunia.",
+        "keyTakeaways": [
+          "Menegaskan peran ilmu pengetahuan dan keberanian menulis dalam membangun martabat manusia.",
+          "Potret sejarah sosial Nusantara yang disajikan dengan karakterisasi sangat kuat.",
+          "Seorang terpelajar harus sudah berbuat adil sejak dalam pikiran, apalagi dalam perbuatan."
+        ],
+        "sampleExcerpt": "Bab 1 — Catatan Minke\n\nSeorang terpelajar harus juga belajar berlaku adil sudah sejak dalam pikiran, apalagi dalam perbuatan. Ilmu pengetahuan yang sejati tidak pernah menjauhkan manusia dari kemanusiaannya."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_sg_03",
+      "etag": "v1_filosofi_teras",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_sg_03",
+      "volumeInfo": {
+        "title": "Filosofi Teras",
+        "subtitle": "Filsafat Yunani-Romawi Kuno untuk Mental Tangguh Masa Kini",
+        "authors": ["Henry Manampiring"],
+        "publisher": "Kompas Penerbit Buku",
+        "publishedDate": "2018-11-26",
+        "description": "Buku pengembangan diri populer Indonesia yang menerjemahkan kebijaksanaan filsafat Stoisisme (Marcus Aurelius, Epictetus, Seneca) ke dalam konteks kehidupan modern. Membahas Dikotomi Kendali untuk mengatasi kecemasan berlebih dan menjaga kejernihan rasional.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9786024125189" },
+          { "type": "ISBN_10", "identifier": "6024125180" }
+        ],
+        "pageCount": 346,
+        "categories": ["Self-Growth"],
+        "averageRating": 4.8,
+        "ratingsCount": 3890,
+        "language": "ID",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9786024125189-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9786024125189-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=FilosofiTeras"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": true,
+        "isEditorPick": false,
+        "currentPage": 160,
+        "coverHex": "#2A5C4D",
+        "accentHex": "#E8F0EC",
+        "authorBio": "Henry Manampiring adalah praktisi komunikasi dan penulis buku non-fiksi laris peraih penghargaan Book of the Year Indonesia International Book Fair.",
+        "keyTakeaways": [
+          "Dikotomi Kendali: bedakan hal di bawah kendali kita (pikiran & tindakan) dari hal di luar kendali kita (opini orang & hasil akhir).",
+          "Emosi negatif berawal dari interpretasi atau persepsi kita terhadap suatu peristiwa.",
+          "Premeditatio Malorum melatih kesiapan mental menghadapi skenario tak terduga dengan tenang."
+        ],
+        "sampleExcerpt": "Bab 3 — Dikotomi Kendali\n\nDalam hidup, ada hal-hal yang berada di bawah kendali kita, dan ada hal-hal yang tidak berada di bawah kendali kita. Ketenteraman batin lahir ketika kita mencurahkan energi sepenuhnya pada usaha kita sendiri."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_cs_05",
+      "etag": "v1_refactoring_fowler",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_cs_05",
+      "volumeInfo": {
+        "title": "Refactoring",
+        "subtitle": "Improving the Design of Existing Code (2nd Edition)",
+        "authors": ["Martin Fowler"],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2018-11-20",
+        "description": "Panduan definitif karya Martin Fowler tentang cara meningkatkan kualitas struktur internal kode program secara bertahap tanpa mengubah perilaku eksternalnya. Dilengkapi katalog teknik refactoring terukur dan indikator code smells.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780134757599" },
+          { "type": "ISBN_10", "identifier": "0134757599" }
+        ],
+        "pageCount": 448,
+        "categories": ["Computer Science"],
+        "averageRating": 4.8,
+        "ratingsCount": 1490,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780134757599-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780134757599-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=Refactoring2nd"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": false,
+        "isEditorPick": false,
+        "currentPage": 0,
+        "coverHex": "#5B3758",
+        "accentHex": "#F3EAF2",
+        "authorBio": "Martin Fowler adalah Chief Scientist di ThoughtWorks dan penulis buku rujukan arsitektur perangkat lunak perusahaan serta pola desain.",
+        "keyTakeaways": [
+          "Siapa pun dapat menulis kode yang dimengerti komputer; pemrogram baik menulis kode yang mudah dimengerti manusia.",
+          "Refactoring dilakukan dalam langkah-langkah kecil yang selalu diverifikasi dengan pengujian otomatis.",
+          "Kenali gejala Code Smells sejak dini sebelum utang teknis menghambat pengembangan fitur."
+        ],
+        "sampleExcerpt": "Bab 1 — Refactoring: Contoh Pertama\n\nKetika Anda harus menambahkan fitur baru ke dalam program tetapi struktur kode saat ini tidak memudahkan penambahan tersebut, lakukan refactoring terlebih dahulu agar penambahan fitur menjadi mudah, lalu tambahkan fitur tersebut."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_psy_04",
+      "etag": "v1_mindset_dweck",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_psy_04",
+      "volumeInfo": {
+        "title": "Mindset: The New Psychology of Success",
+        "subtitle": "Bagaimana Growth Mindset Mendorong Potensi Akademik dan Pribadi",
+        "authors": ["Carol S. Dweck"],
+        "publisher": "Ballantine Books",
+        "publishedDate": "2006-12-26",
+        "description": "Riset puluhan tahun Profesor Psikologi Stanford Carol Dweck tentang kekuatan pola pikir. Ia menjelaskan perbedaan mendasar antara Fixed Mindset (yang menganggap bakat bersifat tetap) dan Growth Mindset (yang meyakini kapasitas intelektual dapat terus bertumbuh melalui dedikasi dan strategi).",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780345472328" },
+          { "type": "ISBN_10", "identifier": "0345472322" }
+        ],
+        "pageCount": 320,
+        "categories": ["Psychology"],
+        "averageRating": 4.7,
+        "ratingsCount": 2610,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780345472328-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780345472328-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=MindsetDweck"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": false,
+        "isEditorPick": false,
+        "currentPage": 72,
+        "coverHex": "#1E3A5F",
+        "accentHex": "#E6EEF8",
+        "authorBio": "Carol S. Dweck adalah Profesor Psikologi Lewis & Virginia Eaton di Stanford University dan anggota National Academy of Sciences.",
+        "keyTakeaways": [
+          "Dalam Growth Mindset, tantangan dan kegagalan dilihat sebagai umpan balik untuk belajar, bukan vonis kemampuan.",
+          "Menghargai proses dan strategi belajar jauh lebih membangun ketimbang memuji bakat bawaan.",
+          "Kata 'belum bisa' (not yet) membuka ruang eksplorasi kognitif yang berkelanjutan."
+        ],
+        "sampleExcerpt": "Bab 1 — Pola Pikir\n\nPandangan yang Anda adopsi terhadap diri Anda sendiri sangat memengaruhi cara Anda menjalani hidup. Keyakinan bahwa kualitas Anda dapat dikembangkan melalui usaha adalah titik awal dari setiap kecintaan sejati terhadap pembelajaran."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_sg_04",
+      "etag": "v1_essentialism_mckeown",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_sg_04",
+      "volumeInfo": {
+        "title": "Essentialism",
+        "subtitle": "The Disciplined Pursuit of Less",
+        "authors": ["Greg McKeown"],
+        "publisher": "Crown Business",
+        "publishedDate": "2014-04-15",
+        "description": "Esensialisme bukan tentang bagaimana menyelesaikan lebih banyak hal dalam waktu singkat, melainkan tentang bagaimana memilih hal yang paling tepat untuk dikerjakan. Sebuah disiplin sistematis untuk membedakan sedikit hal yang esensial dari banyak hal yang remeh.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9780804137386" },
+          { "type": "ISBN_10", "identifier": "0804137382" }
+        ],
+        "pageCount": 272,
+        "categories": ["Self-Growth"],
+        "averageRating": 4.7,
+        "ratingsCount": 1890,
+        "language": "EN",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9780804137386-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9780804137386-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=EssentialismBook"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": false,
+        "isEditorPick": false,
+        "currentPage": 0,
+        "coverHex": "#D96B43",
+        "accentHex": "#F9EBE5",
+        "authorBio": "Greg McKeown adalah peneliti kepemimpinan dan strategi lulusan Stanford Graduate School of Business.",
+        "keyTakeaways": [
+          "Prinsip Less but Better: lebih sedikit komitmen namun dieksekusi dengan kualitas tertinggi.",
+          "Jika Anda tidak memprioritaskan hidup Anda sendiri, orang lain yang akan memprioritaskannya untuk Anda.",
+          "Eliminasi kebisingan agar energi terfokus pada kontribusi paling berdampak."
+        ],
+        "sampleExcerpt": "Bab 1 — Sang Esensialis\n\nJalan seorang Esensialis adalah pengejaran tanpa henti terhadap 'lebih sedikit namun lebih baik'. Ini bukan sesuatu yang dilakukan sesekali, melainkan disiplin berpikir dalam setiap pengambilan keputusan."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gb_fic_03",
+      "etag": "v1_cantik_itu_luka",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gb_fic_03",
+      "volumeInfo": {
+        "title": "Laskar Pelangi",
+        "subtitle": "Kisah Sepuluh Anak Belitong dalam Meraih Ilmu dan Harapan",
+        "authors": ["Andrea Hirata"],
+        "publisher": "Bentang Pustaka",
+        "publishedDate": "2005-09-01",
+        "description": "Novel inspiratif karya Andrea Hirata yang mengisahkan perjuangan sepuluh anak dari keluarga sederhana di Pulau Belitong yang menempuh pendidikan di sekolah Muhammadiyah bersama dua guru berdedikasi tinggi, Ibu Muslimah dan Pak Harfan.",
+        "industryIdentifiers": [
+          { "type": "ISBN_13", "identifier": "9789793062792" },
+          { "type": "ISBN_10", "identifier": "9793062797" }
+        ],
+        "pageCount": 529,
+        "categories": ["Fiction"],
+        "averageRating": 4.8,
+        "ratingsCount": 5410,
+        "language": "ID",
+        "imageLinks": {
+          "smallThumbnail": "https://covers.openlibrary.org/b/isbn/9789793062792-M.jpg",
+          "thumbnail": "https://covers.openlibrary.org/b/isbn/9789793062792-L.jpg"
+        },
+        "previewLink": "https://books.google.co.id/books?id=LaskarPelangi"
+      },
+      "readingState": {
+        "isBookmarked": false,
+        "isTrending": false,
+        "isEditorPick": true,
+        "currentPage": 280,
+        "coverHex": "#3A5A40",
+        "accentHex": "#E9F0EA",
+        "authorBio": "Andrea Hirata adalah novelis Indonesia asal Belitong yang karyanya telah diterbitkan dalam puluhan bahasa internasional.",
+        "keyTakeaways": [
+          "Keterbatasan fasilitas fisik tidak pernah membatasi luasnya imajinasi dan semangat menuntut ilmu.",
+          "Keteladanan seorang pendidik mampu menyalakan api keingintahuan seumur hidup.",
+          "Bermimpilah karena Tuhan akan memeluk mimpi-mimpi itu melalui kerja keras dan ketekunan."
+        ],
+        "sampleExcerpt": "Bab 1 — Sepuluh Murid Baru\n\nPagi itu, di bangku kayu sekolah yang sederhana, kami belajar bahwa pendidikan bukan sekadar mengejar angka di atas kertas, melainkan perjalanan menemukan makna hidup dan memberi sebanyak-banyaknya."
+      }
+    }
+  ]
+}
